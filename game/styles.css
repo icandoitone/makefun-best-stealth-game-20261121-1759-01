@@ -1,0 +1,49 @@
+/* styles.css — the page around the canvas: night colours, centred stage. */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0b0a12;
+  color: #f5f0dc;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stage {
+  width: 960px;
+  max-width: 96vw;
+  padding: 18px 0 8px;
+}
+
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #17131d;
+  border: 2px solid #3a3345;
+  border-radius: 6px;
+  cursor: crosshair;
+  box-shadow: 0 0 60px rgba(91, 58, 140, 0.35);
+}
+
+.help {
+  margin: 12px 4px 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: #c9c2d6;
+}
+
+.help strong {
+  color: #ffd166;
+}
